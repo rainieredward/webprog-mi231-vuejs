@@ -9,8 +9,8 @@
 export default {
   data() {
     return {
-      name: 'Apples',
-      message: 'I like apples'
+      name: 'Mangoes',
+      message: 'I like Mangoes'
     }
   }
 };
@@ -21,5 +21,5 @@ export default {
         display: inline-block;
         margin: 10px;
         padding: 10px;
-        background-color: lightgreen;
+        background-color: yellow;
     }</style>

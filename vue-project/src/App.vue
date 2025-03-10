@@ -1,12 +1,12 @@
 <template>
   <div class="container">
     <header>
-      <h1>Personal Profile Web Page</h1>
+      <h1>Rainier Edward Lopez</h1>
     </header>
     <main>
       <personal-profile />
     </main>
-    <footer>Asia Pacific College</footer>
+    <footer></footer>
   </div>
 </template>
 

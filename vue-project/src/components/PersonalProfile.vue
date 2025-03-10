@@ -2,19 +2,19 @@
   <div class="profile-container">
     <section class="main-content">
       <h2>About Me</h2>
-      <p>I'm a passionate developer, exploring the world of web technologies.</p>
+      <p>I am an active individual with a passion for Flag Football, bringing the same dedication and team spirit to my IT studies. Currently pursuing a Bachelor's degree in Information Technology with a focus on Mobile and Internet Technologies at Asia Pacific College.</p>
 
       <h2>Education & Achievements</h2>
-      <p>Currently studying at Asia Pacific College, specializing in IT.</p>
+      <p>BSIT in Asia Pacific College. Champion and MVP with the first International Flag Football Tournament in PH lead by NFL Star Camryn Bynum of Minnesota Vikings</p>
 
       <h2>Skills & Experience</h2>
-      <p>Vue.js, Django, React, and more!</p>
+      <p>Basic Java, Phyton, TypeScript and React</p>
 
       <h2>Hobbies & Interests</h2>
-      <p>Gaming, Coding, Retro Aesthetics.</p>
+      <p>Flag Football and Gaming.</p>
 
       <h2>Goals & Dreams</h2>
-      <p>To innovate and create meaningful tech solutions.</p>
+      <p>Financial Freedom</p>
     </section>
   </div>
 </template>

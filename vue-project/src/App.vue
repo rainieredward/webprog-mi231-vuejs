@@ -27,9 +27,7 @@
   onMounted(() => {
     getInstruments()
   })
-  export default {
-  name: "App",
-};
+
   </script>
 
 <style>

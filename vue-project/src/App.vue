@@ -1,13 +1,16 @@
 <template>
   <main-content />
+  <restapi />
 </template>
 
 <script>
 import MainContent from "./components/MainContent.vue";
+import RestApi from "./components/RestApi.vue";
 
 export default {
   components: {
     MainContent,
+    RestApi
   },
 };
 </script>

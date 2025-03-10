@@ -15,7 +15,7 @@
 
     <footer>Asia Pacific College</footer>
   </div>
-  <rest.api>
+  
 </template>
 
 <script>

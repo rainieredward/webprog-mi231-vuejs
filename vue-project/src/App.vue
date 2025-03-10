@@ -1,4 +1,7 @@
 <template>
+<ul>
+      <li v-for="instrument in instruments" :key="instrument.id">{{ instrument.name }}</li>
+    </ul>
   <div class="container">
     <header>
       <h1>Rainier Edward Lopez</h1>
@@ -10,11 +13,24 @@
   </div>
 </template>
 
-<script>
-export default {
+<script setup>
+  import { ref, onMounted } from 'vue'
+  import { supabase } from './lib/supabaseClient'
+
+  const instruments = ref([])
+
+  async function getInstruments() {
+    const { data } = await supabase.from('instruments').select()
+    instruments.value = data
+  }
+
+  onMounted(() => {
+    getInstruments()
+  })
+  export default {
   name: "App",
 };
-</script>
+  </script>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');

@@ -1,6 +1,6 @@
 <template>
   <main-content />
-  <rest.API></rest.API>
+  <rest.api>
 </template>
 
 <script>

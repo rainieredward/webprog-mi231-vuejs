@@ -2,6 +2,7 @@
 <ul>
       <li v-for="instrument in instruments" :key="instrument.id">{{ instrument.name }}</li>
     </ul>
+    <br>
   <div class="container">
     <header>
       <h1>Rainier Edward Lopez</h1>
@@ -13,7 +14,7 @@
   </div>
 </template>
 
-<script setup>
+ <script setup>
   import { ref, onMounted } from 'vue'
   import { supabase } from './lib/supabaseClient'
 
@@ -27,7 +28,6 @@
   onMounted(() => {
     getInstruments()
   })
-
   </script>
 
 <style>

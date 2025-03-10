@@ -1,9 +1,11 @@
-import { createApp } from 'vue';
-import App from './App.vue';
-import PersonalProfile from './components/PersonalProfile.vue';
+import { createApp } from 'vue'
+import App from './App.vue'
+import PersonalProfile from './components/PersonalProfile.vue'
+import RestApi from './components/RestApi.vue'
 
-const app = createApp(App);
+const app = createApp(App)
 
-app.component('personal-profile', PersonalProfile);
+app.component('personal-profile', PersonalProfile)
+app.component('restapi', RestApi)
 
-app.mount('#app');
+app.mount('#app')

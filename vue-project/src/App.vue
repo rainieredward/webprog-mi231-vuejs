@@ -1,6 +1,5 @@
 <template>
   <main-content />
-  <rest.api>
 </template>
 
 <script>
